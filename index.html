@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Резюме</title>
   <link href="styles.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -13,7 +14,7 @@
   <div class="container">
     <div class="header">
       <div class="photo">
-        <img src="images/WmQy1vQDH_w.jpg">
+        <img src="images/WmQy1vQDH_w.jpg" alt="( ͡° ͜ʖ ͡°)">
       </div>
       <div class="author">
         <div class="info_box">
@@ -58,7 +59,7 @@
           </div>
         </div>
       </div>
-      
+      <p>
       </p>
       <hr>
       <h3>Образование</h3>
@@ -92,20 +93,16 @@
       <p>
         <div class="row">
           <div class="col-md-6">
-            <h5 class="colheader"></h5>
             <ul>
               <li>- Трудолюбие</li>
               <li>- Аналитическое мышление</li>
               <li>- Педантичность, умение и желание погружаться в проблему</li>
-  
             </ul>
           </div>
           <div class="col-md-6">
-            <h5 class="colheader"></h5>
             <ul>
               <li>- Быстро осваиваю незнакомые инструменты</li>
               <li>- Стрессоустойчивость</li>
-
             </ul>
           </div>
         </div>
@@ -121,20 +118,30 @@
       <hr>
       <ul class="contacts">
         <li>
-          <img src="images/icons/icons8-mail-23.png" /><a href="mailto:nikomoplay@gmail.com">nikomoplay@gmail.com</a>
+          <img src="images/icons/icons8-mail-23.png" alt="mail"><a href="mailto:nikomoplay@gmail.com">nikomoplay@gmail.com</a>
         </li>
         <li>
-          <img src="images/icons/icons8-phone-23.png" /><a href="tel:+79615272139">+7 (961) 527-21-39</a>
+          <img src="images/icons/icons8-phone-23.png" alt="phone"><a href="tel:+79615272139">+7 (961) 527-21-39</a>
         </li>
         <li>
-          <img src="images/icons/icons8-telegram-23.png" /><a href="tg://resolve?domain=@elderpiece">TG: @elderpiece</a>
+          <img src="images/icons/icons8-telegram-23.png" alt="telegram"><a href="tg://resolve?domain=@elderpiece">TG: @elderpiece</a>
         </li>
         <li>
-          <img src="images/icons/icons8-whatsapp-23.png" /><a href="https://wa.me/79615272139">WA: +7 (961) 527-21-39</a>
+          <img src="images/icons/icons8-whatsapp-23.png" alt="whatsapp"><a href="https://wa.me/79615272139">WA: +7 (961) 527-21-39</a>
         </li>
       </ul>
 
     </div>
 
   </div>
+  <script>
+    window.addEventListener('resize', function() {
+    var screenWidth = window.innerWidth;
+    if (screenWidth < 768) { // меньше чем ширина мобильного экрана
+      document.body.style.fontSize = '16px';
+    } else {
+      document.body.style.fontSize = '18px';
+    }
+  });
+  </script>
 </body>
