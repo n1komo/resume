@@ -1,21 +1,23 @@
 * {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
+  overflow-x:hidden;
+
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x:hidden;
 }
 html, body {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 .container {
   width: 720px;
   margin: 0 auto;
   padding: 0px;
-  overflow-y: auto;
 }
 
 .header {
